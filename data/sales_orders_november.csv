@@ -1,0 +1,51 @@
+Order_ID,Order_Date,Customer_ID,Customer_Name,Customer_Type,Product_ID,Product_Name,Quantity,Unit_Price,Total_Amount,Discount_Percent,Net_Amount,Ship_Date,Ship_Method,Status,Region,Sales_Rep
+ORD-2024-50001,2024-11-01,CUST-10234,BestBuy Corporate,Retailer,TV-LCD-45-001,LCD 45" TV Premium,250,499.99,124997.50,15,106247.88,2024-11-05,Freight,Delivered,West,John Smith
+ORD-2024-50002,2024-11-01,CUST-10567,Amazon Fulfillment,E-commerce,TV-LCD-55-001,LCD 55" TV Enhanced,500,649.99,324995.00,18,266496.10,2024-11-06,Freight,Delivered,National,Sarah Johnson
+ORD-2024-50003,2024-11-02,CUST-11234,Costco Wholesale,Retailer,TV-LCD-65-001,LCD 65" TV Ultra,180,849.99,152998.20,12,134638.42,2024-11-07,Freight,Delivered,West,John Smith
+ORD-2024-50004,2024-11-02,CUST-12456,Marriott Hotels,Hospitality,TV-LCD-43-001,LCD 43" TV Enhanced,400,449.99,179996.00,20,143996.80,2024-11-08,Freight,Delivered,National,Mike Wilson
+ORD-2024-50005,2024-11-03,CUST-13789,Walmart Stores,Retailer,TV-LCD-32-001,LCD 32" TV Basic,800,299.99,239992.00,22,187193.76,2024-11-09,Freight,Delivered,National,Sarah Johnson
+ORD-2024-50006,2024-11-03,CUST-14567,Target Corporation,Retailer,TV-QLED-55-001,QLED 55" TV Enhanced,200,749.99,149998.00,14,128998.28,2024-11-10,Freight,Delivered,National,Emily Davis
+ORD-2024-50007,2024-11-04,CUST-15890,Hilton Worldwide,Hospitality,TV-LCD-50-001,LCD 50" TV Standard,300,549.99,164997.00,18,135297.54,2024-11-11,Freight,Delivered,East,Mike Wilson
+ORD-2024-50008,2024-11-04,CUST-16234,Home Depot,Retailer,MON-LCD-24-001,LCD 24" Monitor Office,600,149.99,89994.00,10,80994.60,2024-11-10,Ground,Delivered,National,John Smith
+ORD-2024-50009,2024-11-05,CUST-17567,Micro Center,Retailer,MON-LCD-27-001,LCD 27" Monitor Gaming,150,249.99,37498.50,8,34498.62,2024-11-12,Ground,Delivered,East,Emily Davis
+ORD-2024-50010,2024-11-05,CUST-18890,CDW Corporation,Enterprise,MON-LCD-32-001,LCD 32" Monitor Pro,100,399.99,39999.00,12,35199.12,2024-11-12,Ground,Delivered,Central,Robert Brown
+ORD-2024-50011,2024-11-06,CUST-19234,Newegg Business,E-commerce,TV-OLED-55-001,OLED 55" TV Premium,80,1299.99,103999.20,10,93599.28,2024-11-13,Freight,Delivered,National,Sarah Johnson
+ORD-2024-50012,2024-11-06,CUST-20567,B&H Photo,Retailer,TV-OLED-65-001,OLED 65" TV Ultra,50,1599.99,79999.50,8,73599.54,2024-11-14,Freight,Delivered,East,Emily Davis
+ORD-2024-50013,2024-11-07,CUST-21890,Abt Electronics,Retailer,TV-OLED-77-001,OLED 77" TV Elite,25,2499.99,62499.75,5,59374.76,2024-11-15,White Glove,Delivered,Central,Robert Brown
+ORD-2024-50014,2024-11-07,CUST-22234,Stadium Solutions,Commercial,DIS-SIGN-65-001,Digital Signage 65",40,999.99,39999.60,15,33999.66,2024-11-16,Freight,Delivered,West,Mike Wilson
+ORD-2024-50015,2024-11-08,CUST-23567,Convention Centers Inc,Commercial,DIS-VIDEO-98-001,Video Wall 98",8,4999.99,39999.92,10,35999.93,2024-11-20,White Glove,Delivered,Central,Robert Brown
+ORD-2024-50016,2024-11-08,CUST-24890,JW Marriott,Hospitality,TV-LCD-55-001,LCD 55" TV Enhanced,200,649.99,129998.00,16,109198.32,2024-11-17,Freight,Delivered,National,Mike Wilson
+ORD-2024-50017,2024-11-09,CUST-25234,Walmart.com,E-commerce,TV-LCD-40-001,LCD 40" TV Standard,450,399.99,179995.50,20,143996.40,2024-11-16,Ground,Delivered,National,Sarah Johnson
+ORD-2024-50018,2024-11-09,CUST-26567,Four Seasons Hotels,Hospitality,TV-OLED-55-001,OLED 55" TV Premium,60,1299.99,77999.40,12,68639.47,2024-11-18,White Glove,Delivered,National,Mike Wilson
+ORD-2024-50019,2024-11-10,CUST-27890,Sam's Club,Retailer,TV-LCD-75-001,LCD 75" TV Elite,100,1199.99,119999.00,18,98399.18,2024-11-19,Freight,Delivered,National,John Smith
+ORD-2024-50020,2024-11-10,CUST-28234,Office Depot,Retailer,MON-LCD-24-001,LCD 24" Monitor Office,400,149.99,59996.00,12,52796.48,2024-11-18,Ground,Delivered,National,Emily Davis
+ORD-2024-50021,2024-11-11,CUST-29567,Dell Reseller,Enterprise,MON-OLED-27-001,OLED 27" Monitor Gaming,75,799.99,59999.25,10,53999.33,2024-11-20,Ground,Delivered,Central,Robert Brown
+ORD-2024-50022,2024-11-11,CUST-30890,HP Partner,Enterprise,MON-OLED-32-001,OLED 32" Monitor Pro,40,999.99,39999.60,8,36799.63,2024-11-21,Ground,Delivered,West,Robert Brown
+ORD-2024-50023,2024-11-12,CUST-31234,Ritz Carlton,Hospitality,TV-OLED-65-001,OLED 65" TV Ultra,30,1599.99,47999.70,10,43199.73,2024-11-22,White Glove,Delivered,East,Mike Wilson
+ORD-2024-50024,2024-11-12,CUST-32567,Apple Retail,Enterprise,DIS-SIGN-55-001,Digital Signage 55",60,799.99,47999.40,12,42239.47,2024-11-23,Freight,Delivered,National,Robert Brown
+ORD-2024-50025,2024-11-13,CUST-33890,Microsoft Stores,Enterprise,DIS-SIGN-75-001,Digital Signage 75",35,1299.99,45499.65,10,40949.69,2024-11-24,Freight,Delivered,National,Robert Brown
+ORD-2024-50026,2024-11-13,CUST-34234,Hyatt Hotels,Hospitality,TV-LCD-50-001,LCD 50" TV Standard,250,549.99,137497.50,15,116872.88,2024-11-25,Freight,Delivered,National,Mike Wilson
+ORD-2024-50027,2024-11-14,CUST-35567,Casino Resorts,Commercial,TV-LCD-80-001,LCD 80" TV Flagship,20,1499.99,29999.80,8,27599.82,2024-11-26,White Glove,Delivered,West,Mike Wilson
+ORD-2024-50028,2024-11-14,CUST-36890,Sports Arena Group,Commercial,DIS-VIDEO-98-001,Video Wall 98",4,4999.99,19999.96,5,18999.96,2024-11-28,White Glove,Delivered,Central,Robert Brown
+ORD-2024-50029,2024-11-15,CUST-37234,Black Friday Deal,Consumer,TV-LCD-55-001,LCD 55" TV Enhanced,1200,649.99,779988.00,25,584991.00,2024-11-22,Ground,Delivered,National,Sarah Johnson
+ORD-2024-50030,2024-11-15,CUST-38567,Cyber Week Special,Consumer,TV-QLED-65-001,QLED 65" TV Premium,600,999.99,599994.00,22,467995.32,2024-11-24,Ground,Delivered,National,Emily Davis
+ORD-2024-50031,2024-11-16,CUST-39890,Education Discount,Education,MON-LCD-27-001,LCD 27" Monitor Gaming,200,249.99,49998.00,25,37498.50,2024-11-25,Ground,Delivered,National,Emily Davis
+ORD-2024-50032,2024-11-16,CUST-40234,Government Contract,Government,MON-LCD-24-001,LCD 24" Monitor Office,500,149.99,74995.00,28,53996.40,2024-11-26,Ground,Delivered,East,John Smith
+ORD-2024-50033,2024-11-17,CUST-41567,Healthcare Systems,Healthcare,TV-LCD-43-001,LCD 43" TV Enhanced,150,449.99,67498.50,15,57373.73,2024-11-27,Ground,Delivered,Central,Mike Wilson
+ORD-2024-50034,2024-11-17,CUST-42890,Airport Authority,Government,DIS-SIGN-55-001,Digital Signage 55",100,799.99,79999.00,20,63999.20,2024-11-29,Freight,Delivered,East,Robert Brown
+ORD-2024-50035,2024-11-18,CUST-43234,Cruise Lines Inc,Hospitality,TV-LCD-45-001,LCD 45" TV Premium,350,499.99,174996.50,18,143497.13,2024-11-30,Freight,Delivered,East,Mike Wilson
+ORD-2024-50036,2024-11-18,CUST-44567,BestBuy Online,E-commerce,TV-OLED-55-001,OLED 55" TV Premium,150,1299.99,194998.50,12,171598.68,2024-11-29,Ground,Delivered,National,Sarah Johnson
+ORD-2024-50037,2024-11-19,CUST-45890,Costco Online,E-commerce,TV-QLED-75-001,QLED 75" TV Ultra,80,1399.99,111999.20,14,96319.31,2024-11-30,Freight,Delivered,National,John Smith
+ORD-2024-50038,2024-11-19,CUST-46234,Amazon Prime Day,E-commerce,TV-LCD-65-001,LCD 65" TV Ultra,400,849.99,339996.00,20,271996.80,2024-12-01,Ground,Delivered,National,Sarah Johnson
+ORD-2024-50039,2024-11-20,CUST-47567,Target Online,E-commerce,TV-QLED-50-001,QLED 50" TV Standard,300,649.99,194997.00,16,163797.48,2024-12-02,Ground,Delivered,National,Emily Davis
+ORD-2024-50040,2024-11-20,CUST-48890,MGM Resorts,Hospitality,TV-LCD-55-001,LCD 55" TV Enhanced,180,649.99,116998.20,14,100618.45,2024-12-03,Freight,Delivered,West,Mike Wilson
+ORD-2024-50041,2024-11-21,CUST-49234,University System,Education,MON-LCD-24-001,LCD 24" Monitor Office,800,149.99,119992.00,30,83994.40,2024-12-04,Ground,Delivered,Central,Emily Davis
+ORD-2024-50042,2024-11-21,CUST-50567,State Government,Government,DIS-SIGN-43-001,Digital Signage 43",80,599.99,47999.20,22,37439.38,2024-12-05,Ground,Delivered,East,Robert Brown
+ORD-2024-50043,2024-11-22,CUST-51890,Tech Startup Bundle,Enterprise,MON-OLED-27-001,OLED 27" Monitor Gaming,50,799.99,39999.50,15,33999.58,2024-12-06,Ground,Delivered,West,Robert Brown
+ORD-2024-50044,2024-11-22,CUST-52234,Holiday Special,Consumer,TV-LCD-50-001,LCD 50" TV Standard,500,549.99,274995.00,20,219996.00,2024-12-05,Ground,Delivered,National,John Smith
+ORD-2024-50045,2024-11-23,CUST-53567,Wynn Resorts,Hospitality,TV-OLED-77-001,OLED 77" TV Elite,15,2499.99,37499.85,8,34499.86,2024-12-08,White Glove,Delivered,West,Mike Wilson
+ORD-2024-50046,2024-11-23,CUST-54890,Projector Bundle,Commercial,PRJ-LASER-001,Laser Projector Premium,30,1499.99,44999.70,10,40499.73,2024-12-07,Ground,Delivered,National,Robert Brown
+ORD-2024-50047,2024-11-24,CUST-55234,Church AV Systems,Commercial,PRJ-LCD-002,LCD Projector Enhanced,50,599.99,29999.50,12,26399.56,2024-12-08,Ground,Delivered,Central,Robert Brown
+ORD-2024-50048,2024-11-24,CUST-56567,School District,Education,PRJ-LCD-001,LCD Projector Basic,100,349.99,34999.00,25,26249.25,2024-12-09,Ground,Delivered,East,Emily Davis
+ORD-2024-50049,2024-11-25,CUST-57890,Gaming Cafe Chain,Commercial,MON-OLED-27-001,OLED 27" Monitor Gaming,60,799.99,47999.40,12,42239.47,2024-12-10,Ground,Delivered,West,Robert Brown
+ORD-2024-50050,2024-11-25,CUST-58234,Audio Package,Consumer,ACC-SOUNDBAR-L,Soundbar 5.1 Premium,200,399.99,79998.00,15,67998.30,2024-12-08,Ground,Delivered,National,Emily Davis

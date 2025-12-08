@@ -1,0 +1,271 @@
+TECHVISION ELECTRONICS - PRODUCT SPECIFICATIONS DOCUMENT
+=========================================================
+Version: 2024.12
+Last Updated: December 1, 2024
+
+TELEVISION PRODUCTS
+===================
+
+LCD 32" TV Basic (TV-LCD-32-001)
+--------------------------------
+Display Technology: LED-backlit LCD
+Screen Size: 32 inches (diagonal)
+Resolution: 1920 x 1080 (Full HD)
+Panel Type: IPS
+Aspect Ratio: 16:9
+Refresh Rate: 60Hz
+Response Time: 8ms
+Brightness: 300 nits
+Contrast Ratio: 1000:1
+HDR Support: No
+Wide Color Gamut: No
+Viewing Angle: 178°/178°
+Smart TV: Yes (WebOS Lite)
+Processor: MediaTek Basic SoC
+RAM: 1.5GB
+Storage: 8GB
+WiFi: 802.11ac
+Bluetooth: 5.0
+HDMI Ports: 2 (HDMI 1.4)
+USB Ports: 1 (USB 2.0)
+Audio Output: 2 x 10W speakers
+Power Consumption: 45W typical, 0.5W standby
+Dimensions (WxHxD): 28.5 x 16.5 x 3.2 inches
+Weight: 15.2 lbs
+Wall Mount: VESA 100x100
+Warranty: 1 year
+Price: $299.99
+
+LCD 45" TV Premium (TV-LCD-45-001)
+----------------------------------
+Display Technology: LED-backlit LCD with Local Dimming
+Screen Size: 45 inches (diagonal)
+Resolution: 3840 x 2160 (4K UHD)
+Panel Type: VA
+Aspect Ratio: 16:9
+Refresh Rate: 120Hz
+Response Time: 5ms
+Brightness: 450 nits
+Contrast Ratio: 4000:1
+HDR Support: HDR10, HLG
+Wide Color Gamut: 90% DCI-P3
+Viewing Angle: 178°/178°
+Smart TV: Yes (WebOS 24)
+Processor: MediaTek Standard SoC
+RAM: 2GB
+Storage: 16GB
+WiFi: 802.11ax (WiFi 6)
+Bluetooth: 5.2
+HDMI Ports: 3 (2x HDMI 2.0, 1x HDMI 2.1)
+USB Ports: 2 (USB 3.0)
+Audio Output: 2 x 15W speakers with Dolby Audio
+Power Consumption: 85W typical, 0.5W standby
+Dimensions (WxHxD): 40.1 x 23.5 x 3.7 inches
+Weight: 27.1 lbs
+Wall Mount: VESA 200x200
+Warranty: 2 years
+Price: $499.99
+Gaming Features: ALLM, VRR (48-120Hz), Game Mode
+
+LCD 80" TV Flagship (TV-LCD-80-001)
+-----------------------------------
+Display Technology: Full Array Local Dimming LED LCD
+Screen Size: 80 inches (diagonal)
+Resolution: 7680 x 4320 (8K UHD)
+Panel Type: IPS
+Aspect Ratio: 16:9
+Refresh Rate: 144Hz
+Response Time: 4ms
+Brightness: 1200 nits peak
+Contrast Ratio: 6000:1
+Local Dimming Zones: 512
+HDR Support: HDR10+, Dolby Vision, HLG
+Wide Color Gamut: 98% DCI-P3
+Viewing Angle: 178°/178°
+Smart TV: Yes (WebOS 24 Premium)
+Processor: MediaTek Ultra SoC with AI upscaling
+RAM: 4GB
+Storage: 64GB
+WiFi: 802.11ax (WiFi 6E)
+Bluetooth: 5.2
+HDMI Ports: 4 (all HDMI 2.1)
+USB Ports: 3 (2x USB 3.0, 1x USB-C)
+eARC: Yes
+Audio Output: 4 x 15W speakers (4.0ch) with Dolby Atmos
+Power Consumption: 280W typical, 0.5W standby
+Dimensions (WxHxD): 71.2 x 41.3 x 5.0 inches
+Weight: 88.2 lbs
+Wall Mount: VESA 600x400
+Warranty: 5 years
+Price: $1499.99
+Gaming Features: ALLM, VRR (48-144Hz), FreeSync Premium Pro, G-SYNC Compatible
+
+OLED 55" TV Premium (TV-OLED-55-001)
+------------------------------------
+Display Technology: WOLED with Color Filter
+Screen Size: 55 inches (diagonal)
+Resolution: 3840 x 2160 (4K UHD)
+Panel Type: OLED
+Aspect Ratio: 16:9
+Refresh Rate: 120Hz
+Response Time: 0.1ms
+Brightness: 800 nits peak (10% window)
+Contrast Ratio: Infinite (perfect blacks)
+HDR Support: HDR10+, Dolby Vision IQ, HLG
+Wide Color Gamut: 100% DCI-P3
+Viewing Angle: Perfect (all angles)
+Smart TV: Yes (WebOS 24)
+Processor: MediaTek Pro SoC with AI
+RAM: 3GB
+Storage: 32GB
+WiFi: 802.11ax (WiFi 6)
+Bluetooth: 5.2
+HDMI Ports: 4 (all HDMI 2.1 48Gbps)
+USB Ports: 3 (USB 3.0)
+eARC: Yes
+Audio Output: 2.2ch 40W with Dolby Atmos
+Power Consumption: 120W typical, 0.5W standby
+Dimensions (WxHxD): 48.9 x 28.3 x 2.3 inches
+Weight: 28.6 lbs
+Wall Mount: VESA 300x300
+Warranty: 3 years (includes burn-in protection)
+Price: $1299.99
+Gaming Features: ALLM, VRR, FreeSync Premium, G-SYNC Compatible, Game Optimizer
+
+OLED 77" TV Elite (TV-OLED-77-001)
+----------------------------------
+Display Technology: WOLED EX with MLA (Micro Lens Array)
+Screen Size: 77 inches (diagonal)
+Resolution: 3840 x 2160 (4K UHD)
+Panel Type: OLED EX
+Aspect Ratio: 16:9
+Refresh Rate: 144Hz (native)
+Response Time: 0.1ms
+Brightness: 1100 nits peak
+Contrast Ratio: Infinite
+HDR Support: HDR10+, Dolby Vision IQ, HLG
+Wide Color Gamut: 100% DCI-P3
+Smart TV: Yes (WebOS 24 Premium)
+Processor: MediaTek Ultra SoC
+RAM: 4GB
+Storage: 64GB
+HDMI Ports: 4 (all HDMI 2.1)
+Audio: 4.2ch 80W with Dolby Atmos
+Warranty: 5 years
+Price: $2499.99
+
+QLED 65" TV Premium (TV-QLED-65-001)
+------------------------------------
+Display Technology: Quantum Dot + Full Array Local Dimming
+Screen Size: 65 inches
+Resolution: 3840 x 2160 (4K UHD)
+Panel Type: QLED (VA base)
+Refresh Rate: 144Hz
+Brightness: 1500 nits peak
+Contrast Ratio: 8000:1
+Local Dimming Zones: 240
+HDR Support: HDR10+, Dolby Vision, HLG
+Wide Color Gamut: 100% DCI-P3
+Warranty: 3 years
+Price: $999.99
+
+COMPUTER MONITORS
+=================
+
+LCD 24" Monitor Office (MON-LCD-24-001)
+---------------------------------------
+Display Technology: IPS LED
+Screen Size: 24 inches
+Resolution: 1920 x 1080 (Full HD)
+Refresh Rate: 75Hz
+Response Time: 5ms
+Brightness: 250 nits
+Contrast Ratio: 1000:1
+Color Accuracy: sRGB 99%
+Connectivity: 1x HDMI, 1x VGA, 1x DisplayPort
+USB Hub: No
+Speakers: No
+Height Adjustable: No
+Tilt: Yes (-5° to 20°)
+VESA Mount: 75x75
+Price: $149.99
+
+OLED 27" Monitor Gaming (MON-OLED-27-001)
+-----------------------------------------
+Display Technology: QD-OLED
+Screen Size: 27 inches
+Resolution: 2560 x 1440 (QHD)
+Refresh Rate: 240Hz
+Response Time: 0.03ms (GtG)
+Brightness: 1000 nits peak (HDR)
+Contrast Ratio: Infinite
+HDR: DisplayHDR True Black 400
+Color Accuracy: 99% DCI-P3, Delta E < 2
+Adaptive Sync: FreeSync Premium Pro, G-SYNC Compatible
+Connectivity: 2x HDMI 2.1, 1x DisplayPort 1.4, 1x USB-C
+USB Hub: Yes (4x USB 3.0)
+Height Adjustable: Yes (120mm range)
+Warranty: 3 years (burn-in coverage)
+Price: $799.99
+
+PROJECTORS
+==========
+
+Laser Projector Premium (PRJ-LASER-001)
+---------------------------------------
+Display Technology: Laser DLP (0.65" DMD)
+Resolution: 3840 x 2160 (4K UHD with XPR)
+Brightness: 3000 lumens
+Contrast Ratio: 2,000,000:1
+Light Source Life: 25,000 hours
+HDR Support: HDR10+, HLG
+Throw Ratio: 1.5:1 - 2.0:1
+Lens Shift: Vertical ±60%, Horizontal ±25%
+Zoom: 1.6x optical
+Keystone: ±40° vertical, ±40° horizontal
+Connectivity: 2x HDMI 2.0, USB, RS-232
+Audio: 2x 10W speakers
+Noise Level: 26dB (eco mode)
+Price: $1499.99
+Warranty: 3 years
+
+ACCESSORIES
+===========
+
+Soundbar 5.1 Premium (ACC-SOUNDBAR-L)
+-------------------------------------
+Configuration: 5.1 channel with wireless subwoofer
+Total Power: 440W
+Soundbar Drivers: 9 (3 channels)
+Subwoofer: 8" wireless, 120W
+Surround Speakers: 2x wireless, 50W each
+Connectivity: HDMI eARC, Optical, Bluetooth 5.0
+Audio Formats: Dolby Atmos, DTS:X
+Price: $399.99
+
+DIGITAL SIGNAGE
+===============
+
+Digital Signage 65" (DIS-SIGN-65-001)
+-------------------------------------
+Screen Size: 65 inches
+Resolution: 3840 x 2160
+Brightness: 500 nits
+Operation: 24/7 rated
+Orientation: Landscape/Portrait
+Price: $999.99
+
+Video Wall 98" (DIS-VIDEO-98-001)
+---------------------------------
+Screen Size: 98 inches
+Resolution: 3840 x 2160
+Brightness: 700 nits
+Bezel: 4.8mm combined
+Built-in Tiling: Yes (matrix up to 15x15)
+Price: $4999.99
+
+=========================================================
+END OF SPECIFICATIONS DOCUMENT
+For technical support: support@techvision.com
+For sales inquiries: sales@techvision.com
+=========================================================

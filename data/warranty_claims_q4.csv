@@ -1,0 +1,36 @@
+Claim_ID,Claim_Date,Customer_Name,Product_ID,Product_Name,Purchase_Date,Issue_Category,Issue_Description,Resolution_Type,Resolution_Date,Replacement_Cost,Repair_Cost,Labor_Hours,Warranty_Type,Status,Region,Service_Center
+WC-2024-10001,2024-10-02,James Wilson,TV-LCD-55-001,LCD 55" TV Enhanced,2024-06-15,Power,Unit does not power on,Replacement,2024-10-05,390.00,0.00,1.5,Standard,Completed,East,NYC Service Center
+WC-2024-10002,2024-10-03,Maria Garcia,TV-LCD-65-001,LCD 65" TV Ultra,2024-04-20,Display,Vertical lines on screen,Repair,2024-10-08,0.00,185.00,3.0,Standard,Completed,West,LA Service Center
+WC-2024-10003,2024-10-04,Robert Chen,TV-OLED-55-001,OLED 55" TV Premium,2024-07-10,Display,Dead pixels cluster,Replacement,2024-10-07,780.00,0.00,1.5,Extended,Completed,Central,Chicago Service Center
+WC-2024-10004,2024-10-05,Sarah Johnson,TV-LCD-45-001,LCD 45" TV Premium,2024-03-25,Audio,No sound from speakers,Repair,2024-10-10,0.00,95.00,2.0,Standard,Completed,East,NYC Service Center
+WC-2024-10005,2024-10-06,Michael Brown,MON-LCD-27-001,LCD 27" Monitor Gaming,2024-08-01,Display,Flickering at 165Hz,Repair,2024-10-11,0.00,120.00,2.5,Standard,Completed,West,LA Service Center
+WC-2024-10006,2024-10-07,Emily Davis,TV-QLED-65-001,QLED 65" TV Premium,2024-05-12,Backlight,Uneven backlight bleeding,Replacement,2024-10-10,600.00,0.00,1.5,Standard,Completed,Central,Chicago Service Center
+WC-2024-10007,2024-10-08,David Lee,TV-LCD-80-001,LCD 80" TV Flagship,2024-02-28,Power,Random shutdowns,Repair,2024-10-14,0.00,245.00,4.0,Extended,Completed,East,NYC Service Center
+WC-2024-10008,2024-10-09,Lisa Martinez,ACC-SOUNDBAR-L,Soundbar 5.1 Premium,2024-06-20,Connectivity,Wireless speakers disconnect,Replacement,2024-10-12,200.00,0.00,1.0,Standard,Completed,West,LA Service Center
+WC-2024-10009,2024-10-10,John Anderson,TV-OLED-65-001,OLED 65" TV Ultra,2024-04-15,Display,Image retention issue,Assessment,2024-10-15,0.00,0.00,2.0,Extended,In Progress,Central,Chicago Service Center
+WC-2024-10010,2024-10-11,Amanda White,TV-LCD-50-001,LCD 50" TV Standard,2024-07-22,Smart TV,Apps crash frequently,Software Update,2024-10-12,0.00,0.00,0.5,Standard,Completed,East,NYC Service Center
+WC-2024-10011,2024-10-12,Kevin Thompson,MON-OLED-27-001,OLED 27" Monitor Gaming,2024-08-15,Display,Burn-in visible,Assessment,2024-10-18,0.00,0.00,2.0,Standard,In Progress,West,LA Service Center
+WC-2024-10012,2024-10-13,Jennifer Clark,TV-LCD-32-001,LCD 32" TV Basic,2024-05-30,Remote,Remote not working,Accessory Replace,2024-10-14,15.00,0.00,0.5,Standard,Completed,Central,Chicago Service Center
+WC-2024-10013,2024-10-14,Christopher Moore,TV-QLED-75-001,QLED 75" TV Ultra,2024-03-18,Display,Color banding in gradients,Repair,2024-10-20,0.00,175.00,3.5,Extended,Completed,East,NYC Service Center
+WC-2024-10014,2024-10-15,Michelle Taylor,TV-LCD-43-001,LCD 43" TV Enhanced,2024-06-05,HDMI,HDMI port not working,Repair,2024-10-19,0.00,85.00,2.0,Standard,Completed,West,LA Service Center
+WC-2024-10015,2024-10-16,Daniel Harris,TV-OLED-77-001,OLED 77" TV Elite,2024-01-20,Panel,Slight uniformity issue,Replacement,2024-10-22,1500.00,0.00,2.0,Extended,Completed,Central,Chicago Service Center
+WC-2024-10016,2024-10-17,Jessica Robinson,PRJ-LASER-001,Laser Projector Premium,2024-07-08,Optics,Focus motor failure,Repair,2024-10-24,0.00,320.00,4.0,Standard,Completed,East,NYC Service Center
+WC-2024-10017,2024-10-18,Matthew Lewis,TV-LCD-70-001,LCD 70" TV Professional,2024-04-02,Power,Power supply failure,Replacement,2024-10-23,600.00,0.00,1.5,Standard,Completed,West,LA Service Center
+WC-2024-10018,2024-10-19,Ashley Walker,MON-LCD-32-001,LCD 32" Monitor Pro,2024-08-25,Stand,Stand adjustment broken,Accessory Replace,2024-10-21,45.00,0.00,0.5,Standard,Completed,Central,Chicago Service Center
+WC-2024-10019,2024-10-20,Andrew Hall,TV-QLED-55-001,QLED 55" TV Enhanced,2024-05-18,Audio,Audio sync issues,Software Update,2024-10-21,0.00,0.00,0.5,Standard,Completed,East,NYC Service Center
+WC-2024-10020,2024-10-21,Stephanie Young,TV-LCD-55-001,LCD 55" TV Enhanced,2024-02-10,Backlight,Backlight failure,Repair,2024-10-27,0.00,210.00,3.5,Standard,Completed,West,LA Service Center
+WC-2024-10021,2024-10-22,Brian King,TV-OLED-48-001,OLED 48" TV Standard,2024-06-28,Display,Horizontal line appeared,Replacement,2024-10-26,660.00,0.00,1.5,Extended,Completed,Central,Chicago Service Center
+WC-2024-10022,2024-10-23,Nicole Wright,DIS-SIGN-55-001,Digital Signage 55",2024-03-14,Power,Intermittent power issues,Repair,2024-10-30,0.00,145.00,3.0,Commercial,Completed,East,NYC Service Center
+WC-2024-10023,2024-10-24,Steven Lopez,TV-LCD-40-001,LCD 40" TV Standard,2024-07-02,Remote,Remote buttons unresponsive,Accessory Replace,2024-10-26,12.00,0.00,0.5,Standard,Completed,West,LA Service Center
+WC-2024-10024,2024-10-25,Rachel Hill,MON-OLED-32-001,OLED 32" Monitor Pro,2024-08-10,Connectivity,USB-C port failure,Repair,2024-11-01,0.00,135.00,2.5,Extended,Completed,Central,Chicago Service Center
+WC-2024-10025,2024-10-26,Timothy Scott,TV-QLED-85-001,QLED 85" TV Elite,2024-02-25,Panel,Dead pixel cluster,Assessment,2024-11-02,0.00,0.00,2.0,Extended,In Progress,East,NYC Service Center
+WC-2024-10026,2024-10-27,Karen Green,TV-LCD-75-001,LCD 75" TV Elite,2024-04-30,Smart TV,WiFi connectivity issues,Software Update,2024-10-28,0.00,0.00,1.0,Standard,Completed,West,LA Service Center
+WC-2024-10027,2024-10-28,Mark Adams,ACC-SOUNDBAR-M,Soundbar 2.1 Standard,2024-06-12,Audio,Subwoofer not working,Replacement,2024-10-31,100.00,0.00,1.0,Standard,Completed,Central,Chicago Service Center
+WC-2024-10028,2024-10-29,Laura Baker,TV-OLED-42-001,OLED 42" TV Compact,2024-07-25,Display,Screen flicker at low brightness,Repair,2024-11-04,0.00,165.00,3.0,Standard,Completed,East,NYC Service Center
+WC-2024-10029,2024-10-30,Paul Nelson,PRJ-DLP-001,DLP Projector Gaming,2024-05-08,Optics,Color wheel noise,Repair,2024-11-06,0.00,180.00,3.5,Standard,Completed,West,LA Service Center
+WC-2024-10030,2024-10-31,Christina Carter,TV-LCD-60-001,LCD 60" TV Premium,2024-03-22,Display,Screen uniformity issue,Replacement,2024-11-05,450.00,0.00,1.5,Standard,Completed,Central,Chicago Service Center
+WC-2024-11001,2024-11-01,George Mitchell,TV-LCD-45-001,LCD 45" TV Premium,2024-06-18,Power,Power surge damage,Denied,2024-11-03,0.00,0.00,1.0,Standard,Closed,East,NYC Service Center
+WC-2024-11002,2024-11-02,Sandra Perez,TV-OLED-55-001,OLED 55" TV Premium,2024-04-25,Display,Temporary image retention,User Education,2024-11-03,0.00,0.00,0.5,Extended,Completed,West,LA Service Center
+WC-2024-11003,2024-11-03,Eric Roberts,MON-LCD-24-001,LCD 24" Monitor Office,2024-08-30,Stand,Stand wobble,Accessory Replace,2024-11-05,25.00,0.00,0.5,Standard,Completed,Central,Chicago Service Center
+WC-2024-11004,2024-11-04,Melissa Turner,TV-QLED-65-001,QLED 65" TV Premium,2024-02-15,Backlight,Backlight dimming unevenly,Repair,2024-11-10,0.00,195.00,3.5,Extended,Completed,East,NYC Service Center
+WC-2024-11005,2024-11-05,Ryan Phillips,TV-LCD-85-001,LCD 85" TV Ultimate,2024-01-10,Panel,Panel crack - delivery damage,Replacement,2024-11-12,1080.00,0.00,2.0,Extended,Completed,West,LA Service Center

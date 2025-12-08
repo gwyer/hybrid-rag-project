@@ -111,15 +111,89 @@ hybrid-rag-project/
 │   ├── STRUCTURED_QUERIES.md  # CSV query documentation
 │   ├── ASYNC_INGESTION.md     # Async ingestion guide
 │   └── SHUTDOWN.md            # Shutdown handling guide
-├── data/                      # Drop your documents here
+├── data/                      # Sample data files (13 files included)
+│   ├── *.csv                  # 7 CSV files (structured data)
+│   ├── *.md                   # 5 Markdown files (unstructured)
+│   └── *.txt                  # 1 Text file (technical specs)
 ├── chroma_db/                 # Vector store (auto-created)
-├── tests/                     # Unit tests (future)
+├── tests/                     # Unit tests
+│   └── extract_fields_tests.py
 ├── setup.py                   # Package setup file
 ├── requirements.txt           # Python dependencies
+├── TESTING_RESULTS.md         # Comprehensive test results
+├── CONTRIBUTING.md            # Contribution guidelines
+├── CHANGELOG.md               # Version history
+├── LICENSE                    # MIT License
 └── README.md                  # This file
-├── SampleData.py.backup       # Original sample code (backup)
-├── .gitignore                 # Git ignore rules
-└── .venv/                     # Virtual environment (not tracked)
+```
+
+## Sample Data (UCSC Extension Project)
+
+This repository includes **13 sample data files** for demonstration and testing purposes. These files represent a realistic business scenario for TechVision Electronics and are designed to showcase the system's capabilities across multiple document types.
+
+### 📊 Included Sample Files
+
+**Structured Data (CSV) - 7 files:**
+- `product_catalog.csv` - Product inventory with specifications (~50 rows)
+- `inventory_levels.csv` - Stock levels and warehouse data (~100 rows)
+- `sales_orders_november.csv` - Monthly sales transactions (~75 rows)
+- `warranty_claims_q4.csv` - Customer warranty claims (~60 rows)
+- `production_schedule_dec2024.csv` - Manufacturing schedule (~40 rows)
+- `supplier_pricing.csv` - Vendor pricing information (~80 rows)
+- `shipping_manifests.csv` - Shipping and logistics data (~45 rows)
+
+**Unstructured Data (Markdown) - 5 files:**
+- `customer_feedback_q4_2024.md` - Customer reviews and feedback
+- `market_analysis_2024.md` - Market research and trends
+- `quality_control_report_nov2024.md` - QC findings and issues
+- `return_policy_procedures.md` - Policy documentation
+- `support_tickets_summary.md` - Technical support summary
+
+**Text Data - 1 file:**
+- `product_specifications.txt` - Technical specifications
+
+**Total**: ~450 CSV rows + 38 text chunks (after chunking) = **430 searchable documents**
+
+### 🎯 Purpose
+
+These sample files are included to:
+1. **Demonstrate** the system's hybrid search capabilities
+2. **Test** both semantic (vector) and lexical (keyword) retrieval
+3. **Validate** document-type-aware retrieval architecture
+4. **Provide** immediate working examples without additional setup
+5. **Showcase** cross-document query synthesis
+
+### 📖 Testing Results
+
+Comprehensive testing results are documented in `TESTING_RESULTS.md`, showing:
+- ✅ **100% retrieval success rate** across all document types
+- ✅ **17 test queries** with detailed results
+- ✅ **Performance metrics** and comparative analysis
+- ✅ **Semantic vs Lexical vs Hybrid** search comparison
+
+### 💡 Using the Sample Data
+
+**Quick Start:**
+```bash
+# 1. Run setup
+./setup.sh
+
+# 2. The sample data is already in data/ - ready to use!
+
+# 3. Run the demo
+python scripts/run_demo.py
+
+# 4. Or use Claude Desktop
+# Configure MCP server and query: "What are the prices in the product catalog?"
+```
+
+**For Production Use:**
+To use your own data instead:
+1. Remove or backup the sample files from `data/`
+2. Add your own documents (TXT, PDF, MD, DOCX, CSV)
+3. Re-run ingestion
+4. Optionally uncomment data exclusions in `.gitignore`
+
 ```
 
 ## Configuration

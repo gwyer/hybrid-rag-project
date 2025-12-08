@@ -1,0 +1,76 @@
+Supplier_ID,Supplier_Name,Component_ID,Component_Name,Category,Unit_Price,MOQ,Lead_Time_Days,Quality_Rating,Country,Payment_Terms,Contract_End,Volume_Discount_Tier1,Volume_Discount_Tier2,Volume_Discount_Tier3,Certification,Last_Audit
+SUP-001,Samsung Display,COMP-LCD-32,32" LCD Panel IPS,Display Panel,85.00,500,21,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-40,40" LCD Panel VA,Display Panel,115.00,400,21,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-43,43" LCD Panel IPS,Display Panel,125.00,350,24,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-45,45" LCD Panel VA,Display Panel,140.00,300,24,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-50,50" LCD Panel IPS,Display Panel,155.00,250,28,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-55,55" LCD Panel VA,Display Panel,185.00,200,28,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-60,60" LCD Panel IPS,Display Panel,220.00,150,30,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-65,65" LCD Panel VA,Display Panel,255.00,120,30,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-70,70" LCD Panel IPS,Display Panel,310.00,100,35,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-75,75" LCD Panel VA,Display Panel,380.00,80,35,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-80,80" LCD Panel IPS,Display Panel,480.00,60,42,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-001,Samsung Display,COMP-LCD-85,85" LCD Panel VA,Display Panel,580.00,50,42,A+,South Korea,Net 30,2025-06-30,3%,5%,8%,ISO 9001,2024-09-15
+SUP-002,LG Display,COMP-OLED-42,42" OLED Panel,Display Panel,280.00,200,28,A+,South Korea,Net 45,2025-08-31,4%,7%,10%,ISO 9001,2024-10-20
+SUP-002,LG Display,COMP-OLED-48,48" OLED Panel,Display Panel,350.00,150,28,A+,South Korea,Net 45,2025-08-31,4%,7%,10%,ISO 9001,2024-10-20
+SUP-002,LG Display,COMP-OLED-55,55" OLED Panel,Display Panel,420.00,120,32,A+,South Korea,Net 45,2025-08-31,4%,7%,10%,ISO 9001,2024-10-20
+SUP-002,LG Display,COMP-OLED-65,65" OLED Panel,Display Panel,520.00,100,32,A+,South Korea,Net 45,2025-08-31,4%,7%,10%,ISO 9001,2024-10-20
+SUP-002,LG Display,COMP-OLED-77,77" OLED Panel,Display Panel,820.00,60,40,A+,South Korea,Net 45,2025-08-31,4%,7%,10%,ISO 9001,2024-10-20
+SUP-002,LG Display,COMP-OLED-83,83" OLED Panel,Display Panel,1150.00,40,45,A+,South Korea,Net 45,2025-08-31,4%,7%,10%,ISO 9001,2024-10-20
+SUP-003,BOE Technology,COMP-QLED-43,43" QLED Panel,Display Panel,165.00,400,18,A,China,Net 30,2025-04-30,5%,8%,12%,ISO 9001,2024-08-10
+SUP-003,BOE Technology,COMP-QLED-50,50" QLED Panel,Display Panel,195.00,350,18,A,China,Net 30,2025-04-30,5%,8%,12%,ISO 9001,2024-08-10
+SUP-003,BOE Technology,COMP-QLED-55,55" QLED Panel,Display Panel,230.00,300,21,A,China,Net 30,2025-04-30,5%,8%,12%,ISO 9001,2024-08-10
+SUP-003,BOE Technology,COMP-QLED-65,65" QLED Panel,Display Panel,315.00,200,21,A,China,Net 30,2025-04-30,5%,8%,12%,ISO 9001,2024-08-10
+SUP-003,BOE Technology,COMP-QLED-75,75" QLED Panel,Display Panel,450.00,120,28,A,China,Net 30,2025-04-30,5%,8%,12%,ISO 9001,2024-08-10
+SUP-003,BOE Technology,COMP-QLED-85,85" QLED Panel,Display Panel,720.00,80,35,A,China,Net 30,2025-04-30,5%,8%,12%,ISO 9001,2024-08-10
+SUP-004,MediaTek,COMP-SOC-BASIC,Basic Smart TV SoC,Processor,12.50,2000,14,A,Taiwan,Net 30,2025-05-31,2%,4%,6%,ISO 9001,2024-07-22
+SUP-004,MediaTek,COMP-SOC-STD,Standard Smart TV SoC,Processor,18.00,1500,14,A,Taiwan,Net 30,2025-05-31,2%,4%,6%,ISO 9001,2024-07-22
+SUP-004,MediaTek,COMP-SOC-PRO,Pro Smart TV SoC,Processor,28.00,1000,18,A,Taiwan,Net 30,2025-05-31,2%,4%,6%,ISO 9001,2024-07-22
+SUP-004,MediaTek,COMP-SOC-ULTRA,Ultra Smart TV SoC,Processor,42.00,500,21,A,Taiwan,Net 30,2025-05-31,2%,4%,6%,ISO 9001,2024-07-22
+SUP-005,SK Hynix,COMP-MEM-2GB,2GB DDR4 Memory,Memory,5.50,5000,10,A+,South Korea,Net 30,2025-07-31,3%,5%,7%,ISO 9001,2024-11-05
+SUP-005,SK Hynix,COMP-MEM-4GB,4GB DDR4 Memory,Memory,9.00,3000,10,A+,South Korea,Net 30,2025-07-31,3%,5%,7%,ISO 9001,2024-11-05
+SUP-005,SK Hynix,COMP-MEM-8GB,8GB DDR4 Memory,Memory,16.00,2000,12,A+,South Korea,Net 30,2025-07-31,3%,5%,7%,ISO 9001,2024-11-05
+SUP-005,SK Hynix,COMP-STORAGE-16GB,16GB eMMC Storage,Storage,4.50,5000,10,A+,South Korea,Net 30,2025-07-31,3%,5%,7%,ISO 9001,2024-11-05
+SUP-005,SK Hynix,COMP-STORAGE-32GB,32GB eMMC Storage,Storage,7.50,3000,10,A+,South Korea,Net 30,2025-07-31,3%,5%,7%,ISO 9001,2024-11-05
+SUP-005,SK Hynix,COMP-STORAGE-64GB,64GB eMMC Storage,Storage,12.00,2000,12,A+,South Korea,Net 30,2025-07-31,3%,5%,7%,ISO 9001,2024-11-05
+SUP-006,Delta Electronics,COMP-PSU-50W,50W Power Supply,Power,6.00,3000,14,A,Taiwan,Net 30,2025-03-31,4%,6%,9%,UL Listed,2024-06-18
+SUP-006,Delta Electronics,COMP-PSU-100W,100W Power Supply,Power,9.50,2000,14,A,Taiwan,Net 30,2025-03-31,4%,6%,9%,UL Listed,2024-06-18
+SUP-006,Delta Electronics,COMP-PSU-150W,150W Power Supply,Power,13.00,1500,18,A,Taiwan,Net 30,2025-03-31,4%,6%,9%,UL Listed,2024-06-18
+SUP-006,Delta Electronics,COMP-PSU-200W,200W Power Supply,Power,17.50,1000,18,A,Taiwan,Net 30,2025-03-31,4%,6%,9%,UL Listed,2024-06-18
+SUP-006,Delta Electronics,COMP-PSU-300W,300W Power Supply,Power,24.00,500,21,A,Taiwan,Net 30,2025-03-31,4%,6%,9%,UL Listed,2024-06-18
+SUP-007,Realtek,COMP-WIFI-AC,WiFi AC Module,Connectivity,3.50,5000,10,B+,Taiwan,Net 30,2025-02-28,3%,5%,8%,FCC,2024-05-12
+SUP-007,Realtek,COMP-WIFI-AX,WiFi AX Module,Connectivity,5.80,3000,12,B+,Taiwan,Net 30,2025-02-28,3%,5%,8%,FCC,2024-05-12
+SUP-007,Realtek,COMP-BT-5,Bluetooth 5.0 Module,Connectivity,2.20,5000,10,B+,Taiwan,Net 30,2025-02-28,3%,5%,8%,FCC,2024-05-12
+SUP-007,Realtek,COMP-ETH-1G,1Gbps Ethernet Module,Connectivity,1.80,8000,8,B+,Taiwan,Net 30,2025-02-28,3%,5%,8%,FCC,2024-05-12
+SUP-008,Foxconn,COMP-CHASSIS-S,Small TV Chassis,Mechanical,8.50,1000,21,A,China,Net 45,2025-09-30,5%,8%,12%,ISO 9001,2024-09-28
+SUP-008,Foxconn,COMP-CHASSIS-M,Medium TV Chassis,Mechanical,12.00,800,21,A,China,Net 45,2025-09-30,5%,8%,12%,ISO 9001,2024-09-28
+SUP-008,Foxconn,COMP-CHASSIS-L,Large TV Chassis,Mechanical,18.00,500,28,A,China,Net 45,2025-09-30,5%,8%,12%,ISO 9001,2024-09-28
+SUP-008,Foxconn,COMP-CHASSIS-XL,Extra Large TV Chassis,Mechanical,26.00,300,28,A,China,Net 45,2025-09-30,5%,8%,12%,ISO 9001,2024-09-28
+SUP-008,Foxconn,COMP-STAND-S,Small TV Stand,Mechanical,4.50,2000,14,A,China,Net 45,2025-09-30,5%,8%,12%,ISO 9001,2024-09-28
+SUP-008,Foxconn,COMP-STAND-M,Medium TV Stand,Mechanical,6.50,1500,14,A,China,Net 45,2025-09-30,5%,8%,12%,ISO 9001,2024-09-28
+SUP-008,Foxconn,COMP-STAND-L,Large TV Stand,Mechanical,9.00,1000,18,A,China,Net 45,2025-09-30,5%,8%,12%,ISO 9001,2024-09-28
+SUP-008,Foxconn,COMP-STAND-XL,Extra Large TV Stand,Mechanical,12.50,500,18,A,China,Net 45,2025-09-30,5%,8%,12%,ISO 9001,2024-09-28
+SUP-009,Harman,COMP-SPEAKER-2W,2W Speaker Pair,Audio,2.80,5000,12,A,USA,Net 30,2025-06-30,2%,4%,6%,UL Listed,2024-08-15
+SUP-009,Harman,COMP-SPEAKER-5W,5W Speaker Pair,Audio,4.50,3000,12,A,USA,Net 30,2025-06-30,2%,4%,6%,UL Listed,2024-08-15
+SUP-009,Harman,COMP-SPEAKER-10W,10W Speaker Pair,Audio,7.20,2000,14,A,USA,Net 30,2025-06-30,2%,4%,6%,UL Listed,2024-08-15
+SUP-009,Harman,COMP-SPEAKER-20W,20W Speaker Pair,Audio,11.00,1000,14,A,USA,Net 30,2025-06-30,2%,4%,6%,UL Listed,2024-08-15
+SUP-010,TSMC,COMP-LED-BL-S,Small LED Backlight,Lighting,15.00,1000,21,A+,Taiwan,Net 45,2025-10-31,3%,5%,8%,RoHS,2024-10-10
+SUP-010,TSMC,COMP-LED-BL-M,Medium LED Backlight,Lighting,22.00,800,21,A+,Taiwan,Net 45,2025-10-31,3%,5%,8%,RoHS,2024-10-10
+SUP-010,TSMC,COMP-LED-BL-L,Large LED Backlight,Lighting,32.00,500,28,A+,Taiwan,Net 45,2025-10-31,3%,5%,8%,RoHS,2024-10-10
+SUP-010,TSMC,COMP-LED-BL-XL,Extra Large LED Backlight,Lighting,45.00,300,28,A+,Taiwan,Net 45,2025-10-31,3%,5%,8%,RoHS,2024-10-10
+SUP-011,Amphenol,COMP-HDMI-21,HDMI 2.1 Port,Connector,1.20,10000,7,A,USA,Net 30,2025-04-30,5%,8%,12%,RoHS,2024-04-20
+SUP-011,Amphenol,COMP-USB-C,USB-C Port,Connector,0.85,15000,7,A,USA,Net 30,2025-04-30,5%,8%,12%,RoHS,2024-04-20
+SUP-011,Amphenol,COMP-USB-A,USB-A Port,Connector,0.45,20000,7,A,USA,Net 30,2025-04-30,5%,8%,12%,RoHS,2024-04-20
+SUP-011,Amphenol,COMP-OPTICAL,Optical Audio Port,Connector,0.65,10000,7,A,USA,Net 30,2025-04-30,5%,8%,12%,RoHS,2024-04-20
+SUP-012,Infineon,COMP-TCON-HD,HD T-Con Board,Controller,8.00,2000,14,A,Germany,Net 30,2025-08-31,2%,4%,6%,ISO 9001,2024-07-30
+SUP-012,Infineon,COMP-TCON-4K,4K T-Con Board,Controller,14.00,1500,14,A,Germany,Net 30,2025-08-31,2%,4%,6%,ISO 9001,2024-07-30
+SUP-012,Infineon,COMP-TCON-8K,8K T-Con Board,Controller,28.00,800,18,A,Germany,Net 30,2025-08-31,2%,4%,6%,ISO 9001,2024-07-30
+SUP-013,Murata,COMP-CAP-SET,Capacitor Set,Passive,0.45,50000,5,A+,Japan,Net 30,2025-05-31,8%,12%,15%,RoHS,2024-03-15
+SUP-013,Murata,COMP-RES-SET,Resistor Set,Passive,0.28,50000,5,A+,Japan,Net 30,2025-05-31,8%,12%,15%,RoHS,2024-03-15
+SUP-013,Murata,COMP-IND-SET,Inductor Set,Passive,0.55,30000,7,A+,Japan,Net 30,2025-05-31,8%,12%,15%,RoHS,2024-03-15
+SUP-014,Corning,COMP-GLASS-S,Small Gorilla Glass,Glass,18.00,500,28,A+,USA,Net 45,2025-11-30,3%,5%,8%,ISO 9001,2024-11-01
+SUP-014,Corning,COMP-GLASS-M,Medium Gorilla Glass,Glass,28.00,400,28,A+,USA,Net 45,2025-11-30,3%,5%,8%,ISO 9001,2024-11-01
+SUP-014,Corning,COMP-GLASS-L,Large Gorilla Glass,Glass,42.00,300,35,A+,USA,Net 45,2025-11-30,3%,5%,8%,ISO 9001,2024-11-01
+SUP-014,Corning,COMP-GLASS-XL,Extra Large Gorilla Glass,Glass,65.00,200,35,A+,USA,Net 45,2025-11-30,3%,5%,8%,ISO 9001,2024-11-01
+SUP-015,Texas Instruments,COMP-TUNER-DVB,DVB-T2 Tuner,Tuner,4.50,3000,12,A,USA,Net 30,2025-06-30,3%,5%,8%,FCC,2024-06-25
+SUP-015,Texas Instruments,COMP-TUNER-ATSC,ATSC 3.0 Tuner,Tuner,6.80,2000,14,A,USA,Net 30,2025-06-30,3%,5%,8%,FCC,2024-06-25

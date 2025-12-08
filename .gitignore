@@ -62,14 +62,19 @@ htmlcov/
 *.swp
 *~
 
-# Data files (user's documents - don't commit)
-data/*.csv
-data/*.pdf
-data/*.docx
-data/*.txt
-data/*.md
-# But keep the examples
+# Data files (user's documents - don't commit by default)
+# Commented out to include sample data for UCSC project demonstration
+# data/*.csv
+# data/*.pdf
+# data/*.docx
+# data/*.txt
+# data/*.md
+
+# Keep example documentation
 !data/EXAMPLES.md
+
+# Note: Sample data files are included for educational/testing purposes
+# In production use, uncomment the lines above to exclude user data
 
 # Backups
 *.backup

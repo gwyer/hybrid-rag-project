@@ -1,0 +1,46 @@
+Production_ID,Product_ID,Product_Name,Production_Line,Scheduled_Start,Scheduled_End,Target_Quantity,Completed_Quantity,Status,Shift,Supervisor,Priority,Notes
+PROD-2024-12-001,TV-LCD-32-001,LCD 32" TV Basic,Line-A,2024-12-01,2024-12-03,2500,2500,Completed,Day,Chen Wei,Normal,On schedule
+PROD-2024-12-002,TV-LCD-40-001,LCD 40" TV Standard,Line-A,2024-12-03,2024-12-05,1800,1800,Completed,Day,Chen Wei,Normal,On schedule
+PROD-2024-12-003,TV-LCD-43-001,LCD 43" TV Enhanced,Line-A,2024-12-05,2024-12-07,1500,1485,Completed,Night,Maria Santos,Normal,15 units failed QC
+PROD-2024-12-004,TV-LCD-45-001,LCD 45" TV Premium,Line-A,2024-12-07,2024-12-09,1200,1200,Completed,Day,Chen Wei,High,Holiday demand
+PROD-2024-12-005,TV-LCD-50-001,LCD 50" TV Standard,Line-A,2024-12-09,2024-12-11,1000,875,In Progress,Night,Maria Santos,Normal,On track
+PROD-2024-12-006,TV-LCD-55-001,LCD 55" TV Enhanced,Line-A,2024-12-11,2024-12-14,1500,0,Scheduled,Day,Chen Wei,High,Black Friday backfill
+PROD-2024-12-007,TV-LCD-60-001,LCD 60" TV Premium,Line-A,2024-12-14,2024-12-16,600,0,Scheduled,Day,Chen Wei,Normal,Standard production
+PROD-2024-12-008,TV-LCD-65-001,LCD 65" TV Ultra,Line-A,2024-12-16,2024-12-19,800,0,Scheduled,Night,Maria Santos,High,High demand size
+PROD-2024-12-009,TV-LCD-70-001,LCD 70" TV Professional,Line-A,2024-12-19,2024-12-21,300,0,Scheduled,Day,Chen Wei,Normal,Standard production
+PROD-2024-12-010,TV-LCD-75-001,LCD 75" TV Elite,Line-A,2024-12-21,2024-12-24,400,0,Scheduled,Day,Chen Wei,Normal,Holiday shutdown after
+PROD-2024-12-011,TV-LCD-80-001,LCD 80" TV Flagship,Line-A,2024-12-26,2024-12-28,150,0,Scheduled,Day,Chen Wei,High,Premium product
+PROD-2024-12-012,TV-LCD-85-001,LCD 85" TV Ultimate,Line-A,2024-12-28,2024-12-31,100,0,Scheduled,Night,Maria Santos,Normal,Year-end production
+PROD-2024-12-013,TV-OLED-42-001,OLED 42" TV Compact,Line-B,2024-12-01,2024-12-04,600,600,Completed,Day,James Park,Normal,On schedule
+PROD-2024-12-014,TV-OLED-48-001,OLED 48" TV Standard,Line-B,2024-12-04,2024-12-07,500,500,Completed,Day,James Park,Normal,On schedule
+PROD-2024-12-015,TV-OLED-55-001,OLED 55" TV Premium,Line-B,2024-12-07,2024-12-11,700,650,In Progress,Night,Anna Kim,High,Strong holiday demand
+PROD-2024-12-016,TV-OLED-65-001,OLED 65" TV Ultra,Line-B,2024-12-11,2024-12-15,400,0,Scheduled,Day,James Park,High,Premium segment
+PROD-2024-12-017,TV-OLED-77-001,OLED 77" TV Elite,Line-B,2024-12-15,2024-12-20,150,0,Scheduled,Day,James Park,High,Limited production
+PROD-2024-12-018,TV-OLED-83-001,OLED 83" TV Flagship,Line-B,2024-12-20,2024-12-24,50,0,Scheduled,Day,James Park,Critical,Panel supply limited
+PROD-2024-12-019,TV-QLED-43-001,QLED 43" TV Basic,Line-C,2024-12-01,2024-12-04,1000,1000,Completed,Day,Robert Lee,Normal,On schedule
+PROD-2024-12-020,TV-QLED-50-001,QLED 50" TV Standard,Line-C,2024-12-04,2024-12-07,800,800,Completed,Night,Lisa Wong,Normal,On schedule
+PROD-2024-12-021,TV-QLED-55-001,QLED 55" TV Enhanced,Line-C,2024-12-07,2024-12-10,900,900,Completed,Day,Robert Lee,High,Holiday demand
+PROD-2024-12-022,TV-QLED-65-001,QLED 65" TV Premium,Line-C,2024-12-10,2024-12-14,600,425,In Progress,Night,Lisa Wong,High,Strong seller
+PROD-2024-12-023,TV-QLED-75-001,QLED 75" TV Ultra,Line-C,2024-12-14,2024-12-18,300,0,Scheduled,Day,Robert Lee,Normal,Standard production
+PROD-2024-12-024,TV-QLED-85-001,QLED 85" TV Elite,Line-C,2024-12-18,2024-12-22,150,0,Scheduled,Day,Robert Lee,Normal,Premium segment
+PROD-2024-12-025,MON-LCD-24-001,LCD 24" Monitor Office,Line-D,2024-12-01,2024-12-05,3000,3000,Completed,Day,Tom Harris,Normal,On schedule
+PROD-2024-12-026,MON-LCD-27-001,LCD 27" Monitor Gaming,Line-D,2024-12-05,2024-12-09,2000,2000,Completed,Night,Sarah Chen,High,Gaming demand
+PROD-2024-12-027,MON-LCD-32-001,LCD 32" Monitor Pro,Line-D,2024-12-09,2024-12-12,1000,800,In Progress,Day,Tom Harris,Normal,On track
+PROD-2024-12-028,MON-OLED-27-001,OLED 27" Monitor Gaming,Line-D,2024-12-12,2024-12-16,500,0,Scheduled,Night,Sarah Chen,High,Premium gaming
+PROD-2024-12-029,MON-OLED-32-001,OLED 32" Monitor Pro,Line-D,2024-12-16,2024-12-20,300,0,Scheduled,Day,Tom Harris,Normal,Pro segment
+PROD-2024-12-030,DIS-SIGN-43-001,Digital Signage 43",Line-E,2024-12-01,2024-12-05,400,400,Completed,Day,Mike Johnson,Normal,Commercial line
+PROD-2024-12-031,DIS-SIGN-55-001,Digital Signage 55",Line-E,2024-12-05,2024-12-10,350,350,Completed,Day,Mike Johnson,Normal,On schedule
+PROD-2024-12-032,DIS-SIGN-65-001,Digital Signage 65",Line-E,2024-12-10,2024-12-15,250,200,In Progress,Night,David Brown,Normal,On track
+PROD-2024-12-033,DIS-SIGN-75-001,Digital Signage 75",Line-E,2024-12-15,2024-12-20,150,0,Scheduled,Day,Mike Johnson,Normal,Standard production
+PROD-2024-12-034,DIS-VIDEO-98-001,Video Wall 98",Line-E,2024-12-20,2024-12-28,25,0,Scheduled,Day,Mike Johnson,High,Special order batch
+PROD-2024-12-035,PRJ-LCD-001,LCD Projector Basic,Line-F,2024-12-01,2024-12-07,500,500,Completed,Day,Amy Zhang,Normal,On schedule
+PROD-2024-12-036,PRJ-LCD-002,LCD Projector Enhanced,Line-F,2024-12-07,2024-12-13,350,350,Completed,Night,Kevin Wu,Normal,On schedule
+PROD-2024-12-037,PRJ-DLP-001,DLP Projector Gaming,Line-F,2024-12-13,2024-12-19,200,125,In Progress,Day,Amy Zhang,Normal,On track
+PROD-2024-12-038,PRJ-LASER-001,Laser Projector Premium,Line-F,2024-12-19,2024-12-26,100,0,Scheduled,Day,Amy Zhang,High,Premium product
+PROD-2024-12-039,ACC-SOUNDBAR-S,Soundbar 2.0 Compact,Line-G,2024-12-01,2024-12-05,1000,1000,Completed,Day,Eric Taylor,Normal,On schedule
+PROD-2024-12-040,ACC-SOUNDBAR-M,Soundbar 2.1 Standard,Line-G,2024-12-05,2024-12-10,800,800,Completed,Night,Paula Martinez,Normal,On schedule
+PROD-2024-12-041,ACC-SOUNDBAR-L,Soundbar 5.1 Premium,Line-G,2024-12-10,2024-12-16,600,450,In Progress,Day,Eric Taylor,High,Holiday bundles
+PROD-2024-12-042,ACC-MOUNT-S,Wall Mount Small,Line-G,2024-12-16,2024-12-18,2000,0,Scheduled,Night,Paula Martinez,Normal,Accessory line
+PROD-2024-12-043,ACC-MOUNT-M,Wall Mount Medium,Line-G,2024-12-18,2024-12-20,1500,0,Scheduled,Day,Eric Taylor,Normal,Accessory line
+PROD-2024-12-044,ACC-MOUNT-L,Wall Mount Large,Line-G,2024-12-20,2024-12-22,1000,0,Scheduled,Night,Paula Martinez,Normal,Accessory line
+PROD-2024-12-045,ACC-MOUNT-XL,Wall Mount Extra Large,Line-G,2024-12-22,2024-12-24,500,0,Scheduled,Day,Eric Taylor,Normal,Holiday shutdown after
