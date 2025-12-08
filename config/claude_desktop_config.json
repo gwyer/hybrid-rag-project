@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "hybrid-rag": {
+      "command": "/Users/christophergwyer/PycharmProjects/hybrid-rag-project/.venv/bin/python",
+      "args": [
+        "/Users/christophergwyer/PycharmProjects/hybrid-rag-project/scripts/mcp_server_claude.py"
+      ],
+      "env": {
+        "PATH": "/Users/christophergwyer/PycharmProjects/hybrid-rag-project/.venv/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      }
+    }
+  }
+}

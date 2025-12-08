@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# ChromaDB
+chroma_db/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Data files (user's documents - don't commit)
+data/*.csv
+data/*.pdf
+data/*.docx
+data/*.txt
+data/*.md
+# But keep the examples
+!data/EXAMPLES.md
+
+# Backups
+*.backup
+*_bak/
+data_temp_bak/
+
+# Distribution
+dist/
+*.zip
+*.tar.gz
+
+# Claude Code
+.claude/settings.local.json
+
+# Temporary test/debug files
+restructure.sh
+TEST_PLAN.md
+MARKDOWN_FIX.md
