@@ -2,7 +2,6 @@
 MCP Server for Hybrid RAG System
 Provides APIs for document ingestion and querying.
 """
-import signal
 import sys
 import yaml
 from pathlib import Path
@@ -10,7 +9,6 @@ from contextlib import asynccontextmanager
 from typing import Dict, Any, List
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from langchain_core.documents import Document
 from langchain_community.vectorstores import Chroma
 from langchain_community.retrievers import BM25Retriever
 from langchain_ollama import OllamaEmbeddings, OllamaLLM

@@ -11,7 +11,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import yaml
 from typing import Dict, Any
-from langchain_core.documents import Document
 from langchain_community.vectorstores import Chroma
 from langchain_community.retrievers import BM25Retriever
 from langchain_ollama import OllamaEmbeddings, OllamaLLM

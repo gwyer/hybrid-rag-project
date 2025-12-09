@@ -15,7 +15,6 @@ from mcp.server import NotificationOptions, Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
-from langchain_core.documents import Document
 from langchain_community.vectorstores import Chroma
 from langchain_community.retrievers import BM25Retriever
 from langchain_ollama import OllamaEmbeddings, OllamaLLM
