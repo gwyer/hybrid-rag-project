@@ -11,7 +11,7 @@ from pathlib import Path
 import sys
 
 # Add src to path
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
 
 def generate_product_catalog(output_file: Path, num_records: int = 5000):
@@ -495,7 +495,7 @@ def main():
     print("=" * 70)
     print("\nThis script will generate thousands of records for boundary testing.\n")
 
-    data_dir = Path(__file__).parent.parent / "data"
+    data_dir = Path(__file__).parent.parent.parent / "data"
     data_dir.mkdir(exist_ok=True)
 
     print("CSV FILES - Generating structured data...\n")

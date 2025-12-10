@@ -93,3 +93,7 @@ dist/
 restructure.sh
 TEST_PLAN.md
 MARKDOWN_FIX.md
+
+# Generated reports
+*_REPORT.md
+BOUNDARY_TESTING_REPORT.md

@@ -6,8 +6,8 @@ Main script demonstrating hybrid search with RAG using configuration file and do
 import sys
 from pathlib import Path
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add project root to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import yaml
 from typing import Dict, Any
@@ -27,7 +27,7 @@ from src.hybrid_rag import (
 
 def load_config() -> Dict[str, Any]:
     """Load configuration from config.yaml"""
-    config_path = Path(__file__).parent.parent / "config" / "config.yaml"
+    config_path = Path(__file__).parent.parent.parent / "config" / "config.yaml"
     with open(config_path, "r") as f:
         return yaml.safe_load(f)
 
@@ -44,7 +44,7 @@ def main():
 
     # --- 1. Load Documents from Data Directory ---
     data_dir = config['data']['directory']
-    data_path = Path(__file__).parent.parent / data_dir
+    data_path = Path(__file__).parent.parent.parent / data_dir
     loader = DocumentLoaderUtility(str(data_path), config=config)
     documents = loader.load_documents()
 
@@ -71,7 +71,7 @@ def main():
         return
 
     # --- 3. Create the Vector Store (Dense Search) ---
-    persist_dir = Path(__file__).parent.parent / config['vector_store']['persist_directory']
+    persist_dir = Path(__file__).parent.parent.parent / config['vector_store']['persist_directory']
     vectorstore = Chroma.from_documents(
         documents,
         embeddings,

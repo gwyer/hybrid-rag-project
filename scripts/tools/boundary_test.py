@@ -13,7 +13,7 @@ from datetime import datetime
 import sys
 
 # Add src to path
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
 from hybrid_rag import DocumentLoaderUtility, configure_logging, create_document_type_aware_retriever
 from langchain_ollama import OllamaEmbeddings, OllamaLLM
@@ -34,7 +34,7 @@ class BoundaryTester:
         }
 
         # Load configuration
-        config_path = Path(__file__).parent.parent / "config" / "config.yaml"
+        config_path = Path(__file__).parent.parent.parent / "config" / "config.yaml"
         with open(config_path, "r") as f:
             self.config = yaml.safe_load(f)
 
@@ -43,7 +43,7 @@ class BoundaryTester:
         self.embedding_model = self.config['ollama']['embedding_model']
         self.llm_model = self.config['ollama']['llm_model']
 
-        self.data_dir = Path(__file__).parent.parent / self.config['data']['directory']
+        self.data_dir = Path(__file__).parent.parent.parent / self.config['data']['directory']
 
     def get_system_info(self):
         """Collect system information."""
@@ -117,7 +117,7 @@ class BoundaryTester:
         print("\nThis may take several minutes with a large dataset...\n")
 
         embeddings = OllamaEmbeddings(model=self.embedding_model, base_url=self.ollama_url)
-        persist_dir = Path(__file__).parent.parent / self.config['vector_store']['persist_directory']
+        persist_dir = Path(__file__).parent.parent.parent / self.config['vector_store']['persist_directory']
 
         vectorstore = Chroma.from_documents(
             documents,
@@ -401,7 +401,7 @@ Answer:"""
 
     def save_report(self):
         """Save detailed report to file."""
-        report_file = Path(__file__).parent.parent / "BOUNDARY_TESTING_REPORT.md"
+        report_file = Path(__file__).parent.parent.parent / "BOUNDARY_TESTING_REPORT.md"
 
         with open(report_file, 'w') as f:
             f.write("# Hybrid RAG - Boundary Testing Report\n\n")

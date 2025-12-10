@@ -8,6 +8,31 @@ A generalized Retrieval-Augmented Generation (RAG) system with hybrid search cap
 
 > 🎯 **Key Features**: Multi-format support • Local LLM • Claude Desktop integration • Structured data queries • Document-type-aware retrieval
 
+## 🚀 Quick Start (No MCP Required!)
+
+**You don't need Claude Desktop or MCP to use this project!** Just run:
+
+```bash
+# 1. Make sure Ollama is running
+ollama serve
+
+# 2. Activate virtual environment
+source .venv/bin/activate
+
+# 3. Start conversational demo (recommended)
+python scripts/demos/conversational.py
+
+# Or use the shortcut
+./scripts/bin/ask.sh
+```
+
+**That's it!** Ask questions about the 41,000+ records in the sample dataset.
+
+📖 **See [Quick Start Guide](docs/getting-started/quick-start.md)** for complete usage instructions.
+📚 **Browse all documentation** in the [docs/](docs/) folder or start with [docs/README.md](docs/README.md).
+
+---
+
 ## Overview
 
 This project implements a hybrid RAG system that combines:
