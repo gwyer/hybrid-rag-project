@@ -26,7 +26,7 @@ python scripts/demos/conversational.py
 ./scripts/bin/ask.sh
 ```
 
-**That's it!** Ask questions about the 41,000+ records in the sample dataset.
+**That's it!** Ask questions about the 43,835 document chunks in the sample dataset.
 
 📖 **See [Quick Start Guide](docs/getting-started/quick-start.md)** for complete usage instructions.
 📚 **Browse all documentation** in the [docs/](docs/) folder or start with [docs/README.md](docs/README.md).
@@ -159,25 +159,28 @@ This repository includes **13 sample data files** for demonstration and testing 
 ### 📊 Included Sample Files
 
 **Structured Data (CSV) - 7 files:**
-- `product_catalog.csv` - Product inventory with specifications (~50 rows)
-- `inventory_levels.csv` - Stock levels and warehouse data (~100 rows)
-- `sales_orders_november.csv` - Monthly sales transactions (~75 rows)
-- `warranty_claims_q4.csv` - Customer warranty claims (~60 rows)
-- `production_schedule_dec2024.csv` - Manufacturing schedule (~40 rows)
-- `supplier_pricing.csv` - Vendor pricing information (~80 rows)
-- `shipping_manifests.csv` - Shipping and logistics data (~45 rows)
+- `product_catalog.csv` - Product inventory with specifications (5,000 rows)
+- `inventory_levels.csv` - Stock levels and warehouse data (10,000 rows)
+- `sales_orders_november.csv` - Monthly sales transactions (8,000 rows)
+- `warranty_claims_q4.csv` - Customer warranty claims (3,000 rows)
+- `production_schedule_dec2024.csv` - Manufacturing schedule (4,000 rows)
+- `supplier_pricing.csv` - Vendor pricing information (6,000 rows)
+- `shipping_manifests.csv` - Shipping and logistics data (5,000 rows)
 
 **Unstructured Data (Markdown) - 5 files:**
-- `customer_feedback_q4_2024.md` - Customer reviews and feedback
-- `market_analysis_2024.md` - Market research and trends
-- `quality_control_report_nov2024.md` - QC findings and issues
-- `return_policy_procedures.md` - Policy documentation
-- `support_tickets_summary.md` - Technical support summary
+- `customer_feedback_q4_2024.md` - Customer reviews and feedback (600 chunks)
+- `market_analysis_2024.md` - Market research and trends (400 chunks)
+- `quality_control_report_nov2024.md` - QC findings and issues (501 chunks)
+- `return_policy_procedures.md` - Policy documentation (300 chunks)
+- `support_tickets_summary.md` - Technical support summary (700 chunks)
 
 **Text Data - 1 file:**
-- `product_specifications.txt` - Technical specifications
+- `product_specifications.txt` - Technical specifications (334 chunks)
 
-**Total**: ~450 CSV rows + 38 text chunks (after chunking) = **430 searchable documents**
+**Total Dataset:**
+- **41,000 CSV rows** (chunked into 41,000 documents at 10 rows per chunk)
+- **2,835 text/markdown chunks** (chunked at 1000 chars with 200 char overlap)
+- **43,835 total searchable document chunks**
 
 ### 🎯 Purpose
 
