@@ -10,6 +10,7 @@ Welcome to the Hybrid RAG project documentation! This guide will help you find t
 Start here if you're new to the project:
 
 - **[Quick Start Guide](getting-started/quick-start.md)** - Get up and running in 5 minutes
+- **[Testing Quick Start](getting-started/testing-quick-start.md)** - Validate system reliability (⭐ NEW)
 - **[Conversation Memory](getting-started/conversation-memory.md)** - Understanding context across questions
 - **[Demo Cheat Sheet](getting-started/demo-cheat-sheet.md)** - Quick reference for all demo scripts
 
@@ -23,6 +24,7 @@ Deep dives into how the system works:
 ### 📚 Guides & How-Tos
 Practical guides for specific tasks:
 
+- **[Testing Strategy](guides/testing-strategy.md)** - Comprehensive testing methodology (⭐ NEW)
 - **[Usage Comparison](guides/usage-comparison.md)** - Compare interactive vs conversational vs MCP modes
 - **[GitHub Setup](guides/github-setup.md)** - Publishing to GitHub
 - **[Restructure Options](guides/restructure-options.md)** - Project organization analysis
@@ -53,6 +55,9 @@ Practical guides for specific tasks:
 
 **...run boundary tests**
 → [Boundary Testing](architecture/boundary-testing.md)
+
+**...test system reliability**
+→ [Testing Quick Start](getting-started/testing-quick-start.md)
 
 ---
 
@@ -96,8 +101,10 @@ Located in `scripts/demos/`:
 
 ### For Developers
 1. [System Design](architecture/system-design.md)
-2. [Testing Results](architecture/testing-results.md)
-3. [Boundary Testing](architecture/boundary-testing.md)
+2. [Testing Strategy](guides/testing-strategy.md)
+3. [Testing Quick Start](getting-started/testing-quick-start.md)
+4. [Testing Results](architecture/testing-results.md)
+5. [Boundary Testing](architecture/boundary-testing.md)
 
 ### For Contributors
 1. [CONTRIBUTING.md](../CONTRIBUTING.md) (in root)
@@ -127,9 +134,10 @@ Located in `scripts/demos/`:
 
 ## 📈 Documentation Stats
 
-- **Total Documents:** 10 files
-- **Lines of Documentation:** ~5,000+
-- **Code Examples:** 100+
+- **Total Documents:** 12 files
+- **Lines of Documentation:** ~8,000+
+- **Code Examples:** 150+
+- **Test Cases:** 35+ automated tests
 - **Architecture Diagrams:** Multiple
 - **Test Results:** 41,000+ records tested
 
