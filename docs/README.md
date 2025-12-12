@@ -24,7 +24,8 @@ Deep dives into how the system works:
 ### 📚 Guides & How-Tos
 Practical guides for specific tasks:
 
-- **[Testing Strategy](guides/testing-strategy.md)** - Comprehensive testing methodology (⭐ NEW)
+- **[BM25 Explained](guides/bm25-explained.md)** - How keyword search works in this project (⭐ NEW)
+- **[Testing Strategy](guides/testing-strategy.md)** - Comprehensive testing methodology
 - **[Usage Comparison](guides/usage-comparison.md)** - Compare interactive vs conversational vs MCP modes
 - **[GitHub Setup](guides/github-setup.md)** - Publishing to GitHub
 - **[Restructure Options](guides/restructure-options.md)** - Project organization analysis
@@ -58,6 +59,9 @@ Practical guides for specific tasks:
 
 **...test system reliability**
 → [Testing Quick Start](getting-started/testing-quick-start.md)
+
+**...understand BM25 keyword search**
+→ [BM25 Explained](guides/bm25-explained.md)
 
 ---
 
