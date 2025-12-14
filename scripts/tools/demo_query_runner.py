@@ -25,6 +25,7 @@ from src.hybrid_rag import (
     configure_logging,
     create_document_type_aware_retriever
 )
+from src.hybrid_rag.query_preprocessor import QueryPreprocessor
 
 
 # Demo queries organized by capability
@@ -142,6 +143,11 @@ class DemoQueryRunner:
         with open(config_path, "r") as f:
             self.config = yaml.safe_load(f)
 
+        # Initialize query preprocessor for product ID mapping
+        print("🔧 Loading product ID mapping...")
+        self.query_preprocessor = QueryPreprocessor()
+        print("✅ Query preprocessor ready (product ID expansion enabled)")
+
         # Load documents
         data_dir = self.config['data']['directory']
         data_path = Path(__file__).parent.parent.parent / data_dir
@@ -202,7 +208,11 @@ Answer:""")
         Returns:
             Tuple of (answer, list of source files)
         """
-        response = self.qa_chain.invoke({"input": question})
+        # Expand query with product ID mappings
+        expanded_question = self.query_preprocessor.expand_query(question)
+
+        # Use expanded query for retrieval
+        response = self.qa_chain.invoke({"input": expanded_question})
 
         # Extract sources
         sources = []

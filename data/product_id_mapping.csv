@@ -5999,3 +5999,14 @@ SPEC-000997,PROD-19674,Unknown,Audio,,From specifications
 SPEC-000998,PROD-07626,Unknown,Commercial,,From specifications
 SPEC-000999,PROD-54735,Unknown,Audio,,From specifications
 SPEC-001000,PROD-1687,Unknown,Commercial,,From specifications
+TV-OLED-55-001,PROD-19085,"OLED 55"" TV Premium",OLED TV,1299.99,Premium product from specifications
+TV-OLED-48-001,PROD-01480,"OLED 48"" TV Premium",OLED TV,999.99,Premium product from specifications
+TV-OLED-65-001,PROD-39256,"OLED 65"" TV Premium",OLED TV,1799.99,Premium product from specifications
+TV-OLED-77-001,PROD-1804,"OLED 77"" TV Flagship",OLED TV,2999.99,Premium product from specifications
+TV-OLED-83-001,PROD-7091,"OLED 83"" TV Flagship",OLED TV,4999.99,Premium product from specifications
+SPEAKER-WIRELESS-001,PROD-08604,Wireless Speaker System,Audio,299.99,Premium product from specifications
+HDMI-CABLE-001,PROD-8000,HDMI 2.1 Cable,Accessory,29.99,Premium product from specifications
+SOUNDBAR-001,PROD-55813,Premium Soundbar,Audio,599.99,Premium product from specifications
+PROJECTOR-001,PROD-5880,4K Projector,Projector,1499.99,Premium product from specifications
+MONITOR-001,PROD-6586,"Professional Monitor 32""",Monitor,799.99,Premium product from specifications
+LAPTOP-STAND-001,PROD-7601,Adjustable Laptop Stand,Accessory,49.99,Premium product from specifications

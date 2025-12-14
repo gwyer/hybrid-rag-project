@@ -25,6 +25,7 @@ from src.hybrid_rag import (
     configure_logging,
     create_document_type_aware_retriever
 )
+from src.hybrid_rag.query_preprocessor import QueryPreprocessor
 
 
 class ConversationalRAG:
@@ -52,6 +53,11 @@ class ConversationalRAG:
         # Initialize conversation history
         self.chat_history = ChatMessageHistory()
         self.conversation_count = 0
+
+        # Initialize query preprocessor for product ID mapping
+        print("🔧 Loading product ID mapping...")
+        self.query_preprocessor = QueryPreprocessor()
+        print("✅ Query preprocessor ready (product ID expansion enabled)")
 
         # Initialize components
         self._load_documents()
@@ -179,14 +185,21 @@ Keep answers concise but informative."""),
             Dictionary with 'answer' and 'context'
         """
         try:
+            # Expand query with product ID mappings
+            expanded_question = self.query_preprocessor.expand_query(question)
+
+            # Show expansion if it happened
+            if expanded_question != question:
+                print(f"🔍 Expanded query with product IDs: {expanded_question[:100]}...")
+
             # Convert chat history to proper format
             history_messages = []
             for msg in self.chat_history.messages:
                 history_messages.append(msg)
 
-            # Invoke chain with history
+            # Invoke chain with history (using expanded query)
             response = self.qa_chain.invoke({
-                "input": question,
+                "input": expanded_question,
                 "chat_history": history_messages
             })
 

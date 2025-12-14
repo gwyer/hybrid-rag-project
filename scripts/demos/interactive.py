@@ -22,6 +22,7 @@ from src.hybrid_rag import (
     configure_logging,
     create_document_type_aware_retriever
 )
+from src.hybrid_rag.query_preprocessor import QueryPreprocessor
 
 
 class InteractiveRAG:
@@ -43,6 +44,11 @@ class InteractiveRAG:
             self.config = yaml.safe_load(f)
 
         print("✅ Configuration loaded")
+
+        # Initialize query preprocessor for product ID mapping
+        print("🔧 Loading product ID mapping...")
+        self.query_preprocessor = QueryPreprocessor()
+        print("✅ Query preprocessor ready (product ID expansion enabled)")
 
         # Initialize components
         self._load_documents()
@@ -163,7 +169,14 @@ Answer:""")
             Dictionary with 'answer' and 'context'
         """
         try:
-            response = self.qa_chain.invoke({"input": question})
+            # Expand query with product ID mappings
+            expanded_question = self.query_preprocessor.expand_query(question)
+
+            # Show expansion if it happened
+            if expanded_question != question:
+                print(f"🔍 Expanded query with product IDs: {expanded_question[:100]}...")
+
+            response = self.qa_chain.invoke({"input": expanded_question})
 
             if show_sources:
                 print("\n📚 Sources:")
